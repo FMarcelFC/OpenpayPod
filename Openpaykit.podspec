@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'Openpaykit'
-    s.version          = '0.0.5'
+    s.version          = '0.0.6'
     s.summary          = 'Openpaykit XCFramework for iOS development.'
   
   # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
     s.author           = { 'Freddy Marcel Flores Chavarría' => 'fmarcelfc@gmail.com' }
     s.source           = { :git => 'https://github.com/FMarcelFC/OpenpayPod.git', :tag => s.version.to_s }
     s.social_media_url = 'https://twitter.com/FMarcelFC'
-    s.ios.deployment_target = '12.0'
+    s.ios.deployment_target = '14.3'
     s.vendored_frameworks = 'OpenpayKit.xcframework'
     s.swift_version = '5.0'
 
